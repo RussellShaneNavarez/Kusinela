@@ -5,6 +5,11 @@ const Navbar = ({ refs }) => {
   const scrollHandler = (elmRef) => {
     window.scrollTo({ top: elmRef.current.offsetTop, behavior: 'smooth' });
   };
+
+  const handleButtonClick = () => {
+    window.location.href = 'https://www.thefork.it/ristorante/kusinela-r800047';
+  };
+  
   return (
     <nav className='flex flex-row w-full bg-[#090833] text-white text-center justify-between items-center'>
         <div className='ml-[10rem]'>
@@ -20,7 +25,9 @@ const Navbar = ({ refs }) => {
         </ul>
         </div>
         <div className='mr-[10rem]'>
-            <button className='p-2 bg-[#FE1242] rounded-lg'>Book a Table</button>
+          <button onClick={handleButtonClick} className='pt-2 pb-2 px-4 py-4 bg-[#FE1242] rounded-lg'>
+            Book a Table
+          </button>
         </div>
     </nav>
   )
