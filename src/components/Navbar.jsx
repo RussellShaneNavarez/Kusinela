@@ -12,23 +12,51 @@ const Navbar = ({ refs }) => {
   
   return (
     <nav className='flex flex-row w-full bg-[#090833] text-white text-center justify-between items-center'>
-        <div className='ml-[10rem]'>
-            <img src={Logo} alt="Logo" className='w-24' />
-        </div>
-        <div>
+      <div className='ml-[10rem]'>
+        <img src={Logo} alt="Logo" className='w-24' />
+      </div>
+      <div>
         <ul className='flex gap-[4rem]'>
-          <li onClick={() => scrollHandler(refs.home)} className='cursor-pointer'>Home</li>
-          <li onClick={() => scrollHandler(refs.aboutUs)} className='cursor-pointer'>About Us</li>
-          <li onClick={() => scrollHandler(refs.menu)} className='cursor-pointer'>Menu</li>
-          <li onClick={() => scrollHandler(refs.visitUs)} className='cursor-pointer'>Visit Us</li>
-          <li onClick={() => scrollHandler(refs.order)} className='cursor-pointer'>Order</li>
+          <li
+            onClick={() => scrollHandler(refs.home)}
+            className='cursor-pointer underline-left-to-right'
+          >
+            Home
+          </li>
+          <li
+            onClick={() => scrollHandler(refs.aboutUs)}
+            className='cursor-pointer underline-left-to-right'
+          >
+            About us
+          </li>
+          <li
+            onClick={() => scrollHandler(refs.menu)}
+            className='cursor-pointer underline-left-to-right'
+          >
+            Menù
+          </li>
+          <li
+            onClick={() => scrollHandler(refs.visitUs)}
+            className='cursor-pointer underline-left-to-right'
+          >
+            Visit us
+          </li>
+          <li
+            onClick={() => scrollHandler(refs.order)}
+            className='cursor-pointer underline-left-to-right'
+          >
+            Order
+          </li>
         </ul>
-        </div>
-        <div className='mr-[10rem]'>
-          <button onClick={handleButtonClick} className='pt-2 pb-2 px-4 py-4 bg-[#FE1242] rounded-lg'>
-            Book a Table
-          </button>
-        </div>
+      </div>
+      <div className='mr-[10rem]'>
+        <button
+          onClick={handleButtonClick}
+          className='pt-2 pb-2 px-4 py-4 bg-[#FE1242] rounded-lg'
+        >
+          Book a Table
+        </button>
+      </div>
     </nav>
   )
 }
