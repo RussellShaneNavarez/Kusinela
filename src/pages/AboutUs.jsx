@@ -12,8 +12,8 @@ const AboutUs = () => {
         <p>Experience the warmth of Filipino hospitality and the tradition of our culinary heritage. Join us for a memorable dining experience that captures the essence of the Philippines.</p>
         <p>Welcome to the taste of the Philippines.</p>
       </div>
-      <div className='flex mt-10 md:mt-20 md:w-1/2 items-center justify-center'>
-        <div className='w-full max-w-[80%] md:max-w-[100%] aspect-w-16 aspect-h-8'>
+      <div className='flex mt-10 md:mt-20 md:w-1/2 sm:w-100 items-center justify-center'>
+        <div className='w-full max-w-[80%] md:max-w-[100%] sm:max-w-[70%] aspect-w-16 aspect-h-8'>
           <img src={aboutImage} alt="Food 1" className='object-cover' />
         </div>
       </div>
