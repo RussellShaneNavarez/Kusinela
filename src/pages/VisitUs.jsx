@@ -3,7 +3,7 @@ import React from 'react'
 const VisitUs = () => {
   return (
     <div className='flex mt-20 mb-20 md:ml-[12.5rem] md:mr-[12.5rem] ml-0 mr-0 md:flex-row flex-col justify-between items-center'>
-      <div className='w-[90%] sm:w-[70%] md:w-[50%] '>
+      <div className='w-[80 %] sm:w-[70%] md:w-[50%] '>
         <div>
         <h2 className='text-3xl sm:text-3xl md:text-3xl font-semibold mb-8 text-center sm:text-center md:text-left'>Where can you <span style={{ color: '#FE1242' }}>find us</span>?</h2>
         </div>
