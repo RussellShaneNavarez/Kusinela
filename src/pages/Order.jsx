@@ -4,11 +4,11 @@ import deliveroo from "../assets/deliveroo.png"
 
 const Order = () => {
   const handleButtonClickGlovo = () => {
-    window.location.href = 'https://www.thefork.it/ristorante/kusinela-r800047';
+    window.location.href = 'https://glovoapp.com/it/en/milan/kusinela-mil/';
   };
 
   const handleButtonClickDeliveroo = () => {
-    window.location.href = 'https://www.thefork.it/ristorante/kusinela-r800047';
+    window.location.href = 'https://deliveroo.it/en/menu/Milano/giambellino-moncucco/kusinela?geohash=u0nd84w36gdg';
   };
   return (
     <div className="flex flex-col bg-[#090833] text-white pt-20 pb-20 justify-center items-center">
@@ -24,7 +24,7 @@ const Order = () => {
         <img src={glovo} alt="Glovo" style={{width: 200, height: 200}} />
         <button
           onClick={handleButtonClickGlovo}
-          className='pt-2 pb-2 px-4 py-4 bg-[#FE1242] rounded-lg'
+          className='pt-2 pb-2 px-4 py-4 bg-[#FE1242] rounded-lg hover:bg-[#fe1241c0]'
         >
           Glovo
         </button>
@@ -34,7 +34,7 @@ const Order = () => {
         <img src={deliveroo} alt="Deliveroo" style={{width: 200, height: 200}}   />
         <button
           onClick={handleButtonClickDeliveroo}
-          className='pt-2 pb-2 px-4 py-4 bg-[#FE1242] rounded-lg'
+          className='pt-2 pb-2 px-4 py-4 bg-[#FE1242] rounded-lg hover:bg-[#fe1241c0]'
         >
           Deliveroo
         </button>

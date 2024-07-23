@@ -11,7 +11,7 @@ const Navbar = ({ refs }) => {
   };
   
   return (
-    <nav className='flex flex-row w-full bg-[#090833] text-white text-center justify-between items-center'>
+    <nav className='flex flex-row w-full bg-[#090833] text-white text-center justify-between items-center fixed z-50'>
       <div className='ml-[10rem]'>
         <img src={Logo} alt="Logo" className='w-24' />
       </div>
@@ -52,7 +52,7 @@ const Navbar = ({ refs }) => {
       <div className='mr-[10rem]'>
         <button
           onClick={handleButtonClick}
-          className='pt-2 pb-2 px-4 py-4 bg-[#FE1242] rounded-lg'
+          className='pt-2 pb-2 px-4 py-4 bg-[#FE1242] rounded-lg hover:bg-[#fe1241c0]'
         >
           Book a Table
         </button>
