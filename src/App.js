@@ -29,7 +29,15 @@ function App() {
       <section ref={menuRef}><Menu /></section>
       <section ref={visitUsRef}><VisitUs /></section>
       <section ref={orderRef}><Order /></section>
-      <Footer />
+      <Footer
+        refs={{
+          home: homeRef,
+          aboutUs: aboutUsRef,
+          menu: menuRef,
+          visitUs: visitUsRef,
+          order: orderRef,
+        }} 
+      />
     </div>
   );
 }
