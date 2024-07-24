@@ -12,7 +12,7 @@ const Footer = ({ refs }) => {
         <img src={logoName} alt="Logo" width="50%"/>
         <p>© 2024 All Rights Reserved</p>
       </div>
-      <div className='flex flex-row w-[100%] md:w-[33%] justify-center items-center'>
+      <div className='flex flex-row w-[100%] md:w-[34%] justify-center items-center'>
         <div className='p-8'>
           <ul className='flex flex-col gap-8'>
             <li className='hover:text-[#FE1242] cursor-pointer' onClick={() => scrollHandler(refs.home)}>Home</li>
