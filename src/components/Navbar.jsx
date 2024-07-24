@@ -20,7 +20,7 @@ const Navbar = ({ refs }) => {
     <nav className="bg-[#090833] fixed w-full z-50 top-0 start-0">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a
-          href="hhtps://kusinela.netlify.app"
+          href="https://kusinela.netlify.app"
           onClick={() => scrollHandler(refs.home)}
           className="flex items-center cursor-pointer space-x-3 rtl:space-x-reverse"
         >
