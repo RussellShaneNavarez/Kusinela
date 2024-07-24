@@ -33,7 +33,7 @@ const Footer = ({ refs }) => {
         <a href='tel:+393425086701'>+39 3425086701</a>
         <p>Monday - Closed</p>
         <p>Tuesday - Sunday</p>
-        <p>12:00 - 15:00 |19:00 - 22:00</p>
+        <p>12:00 - 15:00 | 19:00 - 22:00</p>
         <p className='italic text-sm font-light mt-2'>Design by Russell Shane Navarez</p>
       </div>
     </div>
