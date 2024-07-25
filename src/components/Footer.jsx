@@ -1,5 +1,5 @@
 import React from 'react'
-import logoName from '../assets/logoName.png'
+import logoName from '../assets/logoNameOfficial.png'
 
 const Footer = ({ refs }) => {
   const scrollHandler = (elmRef) => {
@@ -8,8 +8,8 @@ const Footer = ({ refs }) => {
 
   return (
     <div className='bg-black text-white flex w-full flex-col sm:flex-row md:flex-row pb-12 sm:pb-0'>
-      <div className='flex flex-col w-[100%] md:w-[33%] justify-center items-center mt-12 mb-2 sm:mb-8 md:mb-16'>
-        <img src={logoName} alt="Logo" width="50%"/>
+      <div className='flex flex-col w-[100%] md:w-[33%] justify-center items-center mt-10 mb-2 sm:mb-8 md:mb-16'>
+        <img src={logoName} alt="Logo" width="60%"/>
         <p>© 2024 All Rights Reserved</p>
       </div>
       <div className='flex flex-row w-[100%] md:w-[34%] justify-center items-center'>
