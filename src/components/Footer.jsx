@@ -30,7 +30,7 @@ const Footer = ({ refs }) => {
       </div>
       <div className='flex flex-col w-[100%] md:w-[33%] text-right justify-center items-center md:items-end sm:items-end pr-0 sm:pr-12 md:pr-24 text-base md:text-base sm:text-base'>
         <p>Via Leone Tolstoi 53, 20146 Milan, Italy</p>
-        <a href='tel:+393425086701'>+39 3425086701</a>
+        <a href='tel:+393425086701' className='hover:text-[#FE1242] cursor-pointer'>+39 3425086701</a>
         <p>Monday - Closed</p>
         <p>Tuesday - Sunday</p>
         <p>12:00 - 15:00 | 19:00 - 22:00</p>
