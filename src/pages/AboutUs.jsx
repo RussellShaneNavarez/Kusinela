@@ -3,7 +3,7 @@ import aboutImage from '../assets/aboutImage.jpg';
 
 const AboutUs = () => {
   return (
-    <div className='flex flex-col md:flex-row bg-[#090833] text-white text-center md:text-left '>
+    <div className='flex flex-col md:flex-row bg-black text-white text-center md:text-left '> {/* bg-[#090833] */}
       <div className='flex md:ml-[12rem] mt-10 md:mt-20 flex-col gap-2 md:w-1/2 p-4 mx-8 md:pr-24'>
         <h2 className='md:text-3xl text-3xl mb-8 font-semibold'>
           About <span style={{ color: '#FE1242' }}>Kusinela</span>!

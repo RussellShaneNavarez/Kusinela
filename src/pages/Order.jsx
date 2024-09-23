@@ -11,7 +11,7 @@ const Order = () => {
     window.location.href = 'https://deliveroo.it/en/menu/Milano/giambellino-moncucco/kusinela?geohash=u0nd84w36gdg';
   };
   return (
-    <div className="flex flex-col bg-[#090833] text-white pt-20 pb-20 justify-center items-center">
+    <div className="flex flex-col bg-black text-white pt-20 pb-20 justify-center items-center"> {/* bg-[#090833] */}
 
       <div className='flex flex-col justify-center items-center text-center gap-2 mx-12'>
         <h2 className='md:text-3xl text-3xl font-semibold'>You can't come and still want to eat?</h2>

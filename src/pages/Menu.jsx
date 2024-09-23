@@ -9,7 +9,7 @@ const Menu = () => {
   };
 
   return (
-    <div className='flex flex-col-reverse md:flex-row bg-[#090833] text-white text-center md:text-right '>
+    <div className='flex flex-col-reverse md:flex-row bg-black text-white text-center md:text-right '> {/* bg-[#090833] */}
       <div className='flex mt-10 md:mt-20 mb-10 md:mb-20 md:w-1/2 sm:w-100 justify-center items-center'>
         <div className='w-full max-w-[80%] md:max-w-[100%] sm:max-w-[70%] aspect-w-16 aspect-h-8'>
           <img src={menuImage} alt="Food 2" className='object-cover z-40' />

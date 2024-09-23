@@ -16,8 +16,8 @@ const Navbar = ({ refs }) => {
     setIsMenuOpen(!isMenuOpen);
   };
 
-  return (
-    <nav className="bg-[#090833] fixed w-full z-50 top-0 start-0">
+  return ( 
+    <nav className="bg-black fixed w-full z-50 top-0 start-0"> {/* bg-[#090833] */}
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a
           href="https://kusinela.netlify.app"
