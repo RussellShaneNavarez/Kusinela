@@ -1,6 +1,8 @@
 import React from 'react';
 import aboutImage from '../assets/aboutImage.jpg';
 
+import { Carousel } from "flowbite-react";
+
 const AboutUs = () => {
   return (
     <div className='flex flex-col md:flex-row bg-black text-white text-center md:text-left '> {/* bg-[#090833] */}
@@ -12,11 +14,14 @@ const AboutUs = () => {
         <p>Experience the warmth of Filipino hospitality and the tradition of our culinary heritage. Join us for a memorable dining experience that captures the essence of the Philippines.</p>
         <p>Welcome to the taste of the Philippines.</p>
       </div>
-      <div className='flex mt-10 md:mt-20 md:w-1/2 sm:w-100 items-center justify-center'>
-        <div className='w-full max-w-[80%] md:max-w-[100%] sm:max-w-[70%] aspect-w-16 aspect-h-8'>
-          <img src={aboutImage} alt="Food 1" className='object-cover' />
-        </div>
+      <div className='h-[12rem] w-[20rem] mt-6 md:mt-20 md:h-72 md:w-[35rem] mx-auto'>
+          <Carousel slide={false}>
+            <img src={aboutImage} alt="Food 1"  />
+            <img src={aboutImage} alt="Food 1"  />
+            <img src={aboutImage} alt="Food 1" />
+          </Carousel>
       </div>
+      
     </div>
   );
 };

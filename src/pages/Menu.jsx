@@ -1,6 +1,8 @@
 import React from 'react';
 import menuImage from '../assets/menuImage.jpg';
 
+import { Carousel } from "flowbite-react";
+
 const Menu = () => {
   const menu = '/assets/menu.pdf';
 
@@ -10,10 +12,12 @@ const Menu = () => {
 
   return (
     <div className='flex flex-col-reverse md:flex-row bg-black text-white text-center md:text-right '> {/* bg-[#090833] */}
-      <div className='flex mt-10 md:mt-20 mb-10 md:mb-20 md:w-1/2 sm:w-100 justify-center items-center'>
-        <div className='w-full max-w-[80%] md:max-w-[100%] sm:max-w-[70%] aspect-w-16 aspect-h-8'>
-          <img src={menuImage} alt="Food 2" className='object-cover z-40' />
-        </div>
+    <div className='h-[12rem] w-[20rem] mt-6 md:mt-20 md:h-72 md:w-[35rem] mx-auto mb-10'>
+          <Carousel slide={false}>
+            <img src={menuImage} alt="Food 2"  />
+            <img src={menuImage} alt="Food 2"  />
+            <img src={menuImage} alt="Food 2" />
+          </Carousel>
       </div>
       <div className='flex md:mr-[12rem] mt-10 md:mt-20 flex-col gap-2 md:w-1/2 p-4 mx-8 md:pl-10'>
         <h2 className='text-3xl mb-8 font-semibold'>
