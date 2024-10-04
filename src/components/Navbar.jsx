@@ -9,7 +9,7 @@ const Navbar = ({ refs }) => {
   };
 
   const handleButtonClick = () => {
-    window.location.href = 'https://www.thefork.it/ristorante/kusinela-r800047';
+    window.location.href = 'https://www.covermanager.com/reservation/module_restaurant/ristorante-kusinela/english';
   };
 
   const toggleMenu = () => {
