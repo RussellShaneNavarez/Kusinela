@@ -4,7 +4,7 @@ import menuImage from '../assets/menuImage.jpg';
 import { Carousel } from "flowbite-react";
 
 const Menu = () => {
-  const menu = '/assets/menu.pdf';
+  const menu = '/assets/KusinelaMenu.pdf';
 
   const openPdf = () => {
     window.open(menu, '_blank');
